@@ -1,16 +1,16 @@
 programa {
   funcao inicio() {
-    //Delaração de variáveis e iniciação com zero
+    //DelaraÃ§Ã£o de variÃ¡veis e iniciaÃ§Ã£o com zero
     inteiro numero = 0, contador = 0, pares = 0, impares = 0
 
     enquanto(numero >=0) {
-      escreva("Digite um núremo (negativo para sair): ")
+      escreva("Digite um nÃºremo (negativo para sair): ")
       leia(numero)
       se(numero % 2 == 0) {
         contador++
       }
     }
-    escreva("Quantidade de números pares digitado: ", contador)
+    escreva("Quantidade de nÃºmeros pares digitado: ", contador)
 
 
   }
